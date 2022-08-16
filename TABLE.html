@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+<style>
+    table{
+        border-spacing: 20px;
+    }
+    th,td{
+        padding: 15px;
+    }
+</style>
+</head> 
+<body>
+
+   <table border="10px solid black">
+    <caption>TABLE</caption>
+    <colgroup span="2" style="background-color: red;"></colgroup>
+    <thead>
+
+        <tr>
+            <th>SLNO</th>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CITY</th>
+
+        </tr>
+
+    </thead>  
+        <tr>
+            <td colspan="2">1</td>
+            <!-- <td>X</td> -->
+            <td >10</td>
+            <td>BANGLORE</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Y</td>
+            <td>20</td>
+            <td>CHENNAI</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Z</td>
+            <td>30</td>
+            <td rowspan="2">MUMBAI</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>P</td>
+            <td>40</td>
+            <!-- <td>DELHI</td> -->
+        </tr>
+    
+   </table>
+</body>
+</html>

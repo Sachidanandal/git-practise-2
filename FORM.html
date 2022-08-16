@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>mandatory</legend>
+            Name:
+        <label for="uname">Username</label>
+         <input 
+         type="text" 
+         name="username"  
+         placeholder="enter user name"
+         id="uname"
+         /><br/>
+        Password:
+       
+        <input type="password" name="userpassword" id="12"/>
+        <label for="12">enter password</label>
+        <br/>
+
+        Email: <input type="email" name="useremail"/><br/>
+            
+        </fieldset>
+        
+        Gender: <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female<br/>
+        Courses: <input type="checkbox" name="Courses" value="java">java
+                  <input type="checkbox" name="Courses" value="css">css<br/>
+     
+        Address:
+        <textarea name="useraddress" cols="20" rows="20" placeholder="enter address" ></textarea><br/>
+        DOB: <input type="date" name="dob" /><br/>
+        date and time: <input type="datetime-local" name="date and time"><br/>
+        time: <input type="time" name="time"><br/>
+       city:
+       <select name="places" size="2" multiple >
+        <option value="banglore">banglore</option>
+        <option value="mandya">mandya</option>
+        <option value="maddur">maddur</option>
+        <option value="jade mai sandra">jade mai sandra</option>
+         </select><br>
+        <input list="colors">
+        <datalist id="colors">
+            <option value="red">red</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+        </datalist><br>
+        contact:
+        <input type="tel"
+        name="contact"
+        pattern="123456"
+        >
+
+        <button >submit </button>
+    </form>
+
+</body>
+</html>
